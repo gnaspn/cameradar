@@ -31,6 +31,7 @@ func parseArguments() error {
 
 	viper.AutomaticEnv()
 
+
 	pflag.Parse()
 
 	err := viper.BindPFlags(pflag.CommandLine)
